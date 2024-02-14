@@ -1,3 +1,34 @@
+HOPE: Holistic STT-RAM Architecture Exploration Framework for Future 
+Cross-Platform Analysis
+
+This framework is part of our research on STT-RAM and has been released in the
+IEEE Access journal.
+
+S. Seyedfaraji, M. Bichl, A. Aftab and S. Rehman, "HOPE: Holistic STT-RAM 
+Architecture Exploration Framework for Future Cross-Platform Analysis," in 
+IEEE Access, vol. 12, pp. 16598-16609, 2024, doi: 10.1109/ACCESS.2024.3358891.
+
+To cite our work, please use the following BibTeX entry:
+
+@ARTICLE{10414783,
+  author={Seyedfaraji, Saeed and Bichl, Markus and Aftab, Asad and Rehman, Semeen},
+  journal={IEEE Access}, 
+  title={HOPE: Holistic STT-RAM Architecture Exploration Framework for Future Cross-Platform Analysis}, 
+  year={2024},
+  volume={12},
+  number={},
+  pages={16598-16609},
+  doi={10.1109/ACCESS.2024.3358891}}
+
+The HOPE framework includes modifications to the gem5 simulator.
+The current release is functional, but does not support the generation of 
+checkpoints from CPU models using 'timing' memory mode. The generation of 
+checkpoints using the 'atomic' memory mode is fully functional. Also restoring
+from a checkpoint works on all memory modes and CPU mdoels. The generation of 
+statistics is also fully functional.
+
+See the gem5 simulator README below:
+
 This is the gem5 simulator.
 
 The main website can be found at http://www.gem5.org
